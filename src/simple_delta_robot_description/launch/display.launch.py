@@ -14,6 +14,12 @@ def generate_launch_description():
         "delta_robot.xacro",
     )
 
+    rviz_config_path = os.path.join(
+        get_package_share_path("simple_delta_robot_description"),
+        "rviz",
+        "urdf_config.rviz",
+    )
+
     robot_description = ParameterValue(Command(["xacro ", urdf_path]), value_type=str)
 
     robot_state_publisher_node = Node(
@@ -26,7 +32,9 @@ def generate_launch_description():
         package="joint_state_publisher_gui", executable="joint_state_publisher_gui"
     )
 
-    rviz2_node = Node(package="rviz2", executable="rviz2")
+    rviz2_node = Node(
+        package="rviz2", executable="rviz2", arguments=["-d", rviz_config_path]
+    )
 
     return LaunchDescription(
         [robot_state_publisher_node, joint_state_publisher_gui_node, rviz2_node]
