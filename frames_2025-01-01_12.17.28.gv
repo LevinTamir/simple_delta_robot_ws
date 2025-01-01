@@ -1,0 +1,34 @@
+digraph G {
+"base_link" -> "front_upper_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"front_lower_bottom_link" -> "front_lower_end_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"front_lower_right_link" -> "front_lower_bottom_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"front_lower_bottom_link" -> "front_lower_bottom_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"front_lower_top_link" -> "front_lower_right_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"front_lower_top_link" -> "front_lower_left_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"front_upper_link" -> "front_lower_top_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"base_link" -> "left_upper_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"left_lower_bottom_link" -> "left_lower_end_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"left_lower_right_link" -> "left_lower_bottom_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"left_lower_bottom_link" -> "left_lower_bottom_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"left_lower_top_link" -> "left_lower_right_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"left_lower_top_link" -> "left_lower_left_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"left_upper_link" -> "left_lower_top_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"base_link" -> "right_upper_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"right_lower_bottom_link" -> "right_lower_end_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"right_lower_right_link" -> "right_lower_bottom_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"right_lower_bottom_link" -> "right_lower_bottom_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"right_lower_top_link" -> "right_lower_right_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"right_lower_top_link" -> "right_lower_left_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"right_upper_link" -> "right_lower_top_link"[label=" Broadcaster: default_authority\nAverage rate: 10.196\nBuffer length: 5.1\nMost recent transform: 1735726648.095437\nOldest transform: 1735726642.995329\n"];
+"front_lower_end_link" -> "end_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"front_lower_left_link" -> "front_lower_left_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"end_link" -> "left_end_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"left_lower_left_link" -> "left_lower_left_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"end_link" -> "right_end_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"right_lower_left_link" -> "right_lower_left_virtual_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1735726648.1170068"[ shape=plaintext ] ;
+}->"world";
+}
